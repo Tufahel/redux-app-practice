@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  flex-wrap: wrap;
+}
+
+.quantity {
+  font-size: large;
+  font-weight: bold;
+  margin: 60px;
+}
+
+.quantity_input {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+.quantity_minus, .quantity_plus {
+  padding: 16.5px;
+  background-color: rgb(72, 228, 139);
+  cursor: pointer;
+}
+
+.quantity_minus:hover, .quantity_plus:hover {
+  background-color: rgb(24, 78, 48);
+  color: white;
+}
