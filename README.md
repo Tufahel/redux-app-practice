@@ -3,8 +3,8 @@
 # Title-Info
 > This is a react-redux practice project.
 
-# GIF/Screenshot
-![]
+# Screenshot
+![](pic-1.png)
 
 ## Built With
 - React

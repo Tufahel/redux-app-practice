@@ -1,44 +1,8 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.container {
-  flex-wrap: wrap;
+  align-items: center;
 }
 
 .quantity {
@@ -47,19 +11,22 @@
   margin: 60px;
 }
 
-.quantity_input {
+.quantity-input {
+  height: 4vh;
   text-align: center;
   font-size: large;
   font-weight: bold;
 }
 
-.quantity_minus, .quantity_plus {
+.quantity-minus,
+.quantity-plus {
   padding: 16.5px;
-  background-color: rgb(72, 228, 139);
+  background-color: rgb(72 228 139);
   cursor: pointer;
 }
 
-.quantity_minus:hover, .quantity_plus:hover {
-  background-color: rgb(24, 78, 48);
+.quantity-minus:hover,
+.quantity-plus:hover {
+  background-color: rgb(24 78 48);
   color: white;
 }

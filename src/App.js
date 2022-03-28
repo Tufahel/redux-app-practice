@@ -13,9 +13,9 @@ function App() {
         <h4>using React and Redux</h4>
 
         <div className="quantity">
-          <a href="/" className="quantity_minus" title="Decrement" onClick={(event) => { event.preventDefault(); dispatch(decNumber(5)); }}><span>-</span></a>
-          <input type="text" name="quantity" className="quantity_input" value={myState} />
-          <a href="/" className="quantity_plus" title="Increment" onClick={(event) => { event.preventDefault(); dispatch(incNumber()); }}><span>+</span></a>
+          <a href="/" className="quantity-minus" title="Decrement" onClick={(event) => { event.preventDefault(); dispatch(decNumber(5)); }}><span>-</span></a>
+          <input type="text" name="quantity" className="quantity-input" value={myState} />
+          <a href="/" className="quantity-plus" title="Increment" onClick={(event) => { event.preventDefault(); dispatch(incNumber()); }}><span>+</span></a>
         </div>
       </div>
     </div>
